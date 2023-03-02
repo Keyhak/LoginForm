@@ -6,4 +6,21 @@
 }
 section{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: #00ff00;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2em;
 }
